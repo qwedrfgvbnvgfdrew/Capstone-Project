@@ -6,11 +6,6 @@
 [`FIELD-BASED_CAPSTONE_SCENARIO.pdf`](FIELD-BASED_CAPSTONE_SCENARIO.pdf); every
 design decision below traces back to that document.
 
-> **Before you submit:** replace `<PASTE-YOUR-GITHUB-REPO-URL-HERE>` in this
-> README and in `submission/Submission_Details.docx` with your actual GitHub
-> repository URL once you've pushed this project. That is the only manual
-> step left in this entire project.
-
 **Repository URL:** https://github.com/qwedrfgvbnvgfdrew/Capstone-Project.git
 
 ---
