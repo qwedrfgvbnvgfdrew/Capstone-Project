@@ -56,8 +56,3 @@ correlation reasons.
   or number of sessions available, so they are treated as relative signals
   of engagement rather than absolute measures.
 
-## How to obtain it yourself (if you don't want to use the copy in this repo)
-
-1. Visit https://www.kaggle.com/datasets/aljarah/xAPI-Edu-Data
-2. Download `xAPI-Edu-Data.csv`
-3. Place it at `data/xAPI-Edu-Data.csv` in this repository.
