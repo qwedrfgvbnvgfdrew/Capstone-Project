@@ -11,7 +11,7 @@ design decision below traces back to that document.
 > repository URL once you've pushed this project. That is the only manual
 > step left in this entire project.
 
-**Repository URL:** `<PASTE-YOUR-GITHUB-REPO-URL-HERE>`
+**Repository URL:** https://github.com/qwedrfgvbnvgfdrew/Capstone-Project.git
 
 ---
 
