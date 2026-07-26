@@ -1,0 +1,145 @@
+{
+  "final_k": 4,
+  "random_state": 42,
+  "selection_reason": "The Elbow/Silhouette search found the numerically best silhouette at k=2 (silhouette=0.2001); silhouette score decreases monotonically as k increases on this dataset, which is disclosed here rather than hidden. k=4 (silhouette=0.1358, a 32.2% relative drop from the best score) was nonetheless selected as the FINAL model because the project's functional requirements call for four named, actionable learner profiles (Highly Engaged Learners, Consistent Learners, Struggling but Active Learners, At-Risk Learners). This is a deliberate business-interpretability override of the pure statistical optimum, consistent with the brief's own criterion that a cluster must be 'clearly interpreted' and support 'practical interventions', not merely maximize an internal metric. The trade-off is documented as a limitation.",
+  "cluster_name_map": {
+    "0": "Highly Engaged Learners",
+    "2": "Consistent Learners",
+    "3": "Struggling but Active Learners",
+    "1": "At-Risk Learners"
+  },
+  "kmeans_silhouette_by_k_train": {
+    "2": 0.20014377421439203,
+    "3": 0.154456451028816,
+    "4": 0.1357904849199798,
+    "5": 0.10601759539391635,
+    "6": 0.10623876836860159,
+    "7": 0.10101376404429857,
+    "8": 0.08898470779269448
+  },
+  "final_model_train_metrics": {
+    "silhouette": 0.1357904849199798,
+    "calinski_harabasz": 63.10228827405023,
+    "davies_bouldin": 2.268954028006457
+  },
+  "mean_pairwise_ARI": 0.9256506206202808,
+  "stability_seeds": [
+    0,
+    1,
+    2,
+    3,
+    42
+  ],
+  "cluster_engagement_means_train": {
+    "raisedhands": {
+      "0": 73.594,
+      "1": 18.219,
+      "2": 68.836,
+      "3": 53.247
+    },
+    "VisITedResources": {
+      "0": 78.667,
+      "1": 19.144,
+      "2": 74.426,
+      "3": 79.21
+    },
+    "AnnouncementsView": {
+      "0": 67.0,
+      "1": 17.103,
+      "2": 50.656,
+      "3": 34.37
+    },
+    "Discussion": {
+      "0": 76.615,
+      "1": 35.24,
+      "2": 30.492,
+      "3": 30.84
+    }
+  },
+  "cluster_class_crosstab_train": {
+    "H": {
+      "0": 0.583,
+      "1": 0.021,
+      "2": 0.377,
+      "3": 0.469
+    },
+    "L": {
+      "0": 0.0,
+      "1": 0.651,
+      "2": 0.033,
+      "3": 0.049
+    },
+    "M": {
+      "0": 0.417,
+      "1": 0.329,
+      "2": 0.59,
+      "3": 0.481
+    }
+  },
+  "dbscan_grid_results": [
+    {
+      "eps": 0.5,
+      "n_clusters": 0,
+      "n_noise": 384,
+      "silhouette": NaN,
+      "calinski_harabasz": NaN,
+      "davies_bouldin": NaN
+    },
+    {
+      "eps": 0.75,
+      "n_clusters": 0,
+      "n_noise": 384,
+      "silhouette": NaN,
+      "calinski_harabasz": NaN,
+      "davies_bouldin": NaN
+    },
+    {
+      "eps": 1.0,
+      "n_clusters": 0,
+      "n_noise": 384,
+      "silhouette": NaN,
+      "calinski_harabasz": NaN,
+      "davies_bouldin": NaN
+    },
+    {
+      "eps": 1.5,
+      "n_clusters": 1,
+      "n_noise": 377,
+      "silhouette": NaN,
+      "calinski_harabasz": NaN,
+      "davies_bouldin": NaN
+    },
+    {
+      "eps": 2.0,
+      "n_clusters": 5,
+      "n_noise": 326,
+      "silhouette": 0.37785524755625266,
+      "calinski_harabasz": 40.07319494012176,
+      "davies_bouldin": 0.9793422990086501
+    },
+    {
+      "eps": 2.5,
+      "n_clusters": 3,
+      "n_noise": 106,
+      "silhouette": 0.1838305441718893,
+      "calinski_harabasz": 71.46454802566424,
+      "davies_bouldin": 1.7040954328827056
+    },
+    {
+      "eps": 3.0,
+      "n_clusters": 1,
+      "n_noise": 6,
+      "silhouette": NaN,
+      "calinski_harabasz": NaN,
+      "davies_bouldin": NaN
+    }
+  ],
+  "best_dbscan": {
+    "eps": 2.0,
+    "n_clusters": 5,
+    "n_noise": 326,
+    "silhouette": 0.37785524755625266,
+    "calinski_harabasz": 40.07319494012176,
+    "davies_bouldin": 0.9793422990086501
+  }
+}
